@@ -1,0 +1,32 @@
+.order-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.order-table td,
+.order-table th {
+  border: 1px solid $table-row;
+  padding: 8px;
+  font-size: 2rem;
+}
+
+.order-table tr:nth-child(even) {
+  background-color: $table-even;
+}
+
+.order-table tr:hover {
+  background-color: $table-row;
+}
+
+.order-table th {
+  font-size: 2rem;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: $table-header;
+  color: white;
+}
+
+.modal {
+  padding: 30px;
+}
